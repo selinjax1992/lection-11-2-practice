@@ -1,7 +1,7 @@
 import"./assets/modulepreload-polyfill-B5Qt9EMX.js";import{a,i}from"./assets/vendor-wPsJSEoT.js";const n=()=>a.get("https://6ad7688495e98f36aef26841.mockapi.io/posts"),c=t=>a.post("https://6ad7688495e98f36aef26841.mockapi.io/posts",t),p=t=>a.delete(`https://6ad7688495e98f36aef26841.mockapi.io/posts/${t}`),d="data:image/svg+xml,%3csvg%20aria-hidden='true'%20style='position:%20absolute;%20width:%200;%20height:%200;%20overflow:%20hidden;'%20version='1.1'%20xmlns='http://www.w3.org/2000/svg'%20xmlns:xlink='http://www.w3.org/1999/xlink'%3e%3cdefs%3e%3csymbol%20id='icon-trash'%20viewBox='0%200%2032%2032'%3e%3cpath%20stroke-linejoin='round'%20stroke-linecap='round'%20stroke-miterlimit='4'%20stroke-width='2.6667'%20d='M8%209.333v14.667c0%201.473%201.194%202.667%202.667%202.667h10.667c1.473%200%202.667-1.194%202.667-2.667v-14.667M8%209.333h-1.333M8%209.333h2.667M24%209.333h1.333M24%209.333h-2.667M13.333%2014.667v6.667M18.667%2014.667v6.667M10.667%209.333v-2.667c0-1.473%201.194-2.667%202.667-2.667h5.333c1.473%200%202.667%201.194%202.667%202.667v2.667M10.667%209.333h10.667'%3e%3c/path%3e%3c/symbol%3e%3c/defs%3e%3c/svg%3e",m=({id:t,post_title:e,post_body:s})=>`<li class="posts-list-item" data-id="${t}">
     <button class="post-delete-btn" type="button" data-delete data-post-id="${t}">
       <svg class="post-delete-icon" width="18" height="18">
-        <use href="${d}}#icon-trash"></use>
+        <use href="${d}#icon-trash"></use>
       </svg>
     </button>
     <h3 class="posts-list-item-title">${e}</h3>
