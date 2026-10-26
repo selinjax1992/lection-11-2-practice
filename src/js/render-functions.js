@@ -10,7 +10,7 @@
 </li>
 */
 
-import spriteUrl from '../images/icons.svg';
+import spriteUrl from '../images/icons.svg?url';
 
 export const createPostCardTemplate = ({ id, post_title, post_body }) => {
   return `<li class="posts-list-item" data-id="${id}">
