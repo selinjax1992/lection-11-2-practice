@@ -1,7 +1,7 @@
 import"./assets/modulepreload-polyfill-B5Qt9EMX.js";import{a as i,i as a}from"./assets/vendor-wPsJSEoT.js";const n=()=>i.get("https://6ad7688495e98f36aef26841.mockapi.io/posts"),c=t=>i.post("https://6ad7688495e98f36aef26841.mockapi.io/posts",t),p=t=>i.delete(`https://6ad7688495e98f36aef26841.mockapi.io/posts/${t}`),m=({id:t,post_title:s,post_body:e})=>`<li class="posts-list-item" data-id="${t}">
     <button class="post-delete-btn" type="button" data-delete data-post-id="${t}">
       <svg class="post-delete-icon" width="18" height="18">
-        <use href="../images/icons.svg#icon-trash"></use>
+        <use href="/src/images/icons.svg#icon-trash"></use>
       </svg>
     </button>
     <h3 class="posts-list-item-title">${s}</h3>
