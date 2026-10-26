@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script type="module" crossorigin src="/lection-11-2-practice/02-posts.js"></script>
+    <link rel="modulepreload" crossorigin href="/lection-11-2-practice/assets/modulepreload-polyfill-B5Qt9EMX.js">
+    <link rel="modulepreload" crossorigin href="/lection-11-2-practice/assets/vendor-wPsJSEoT.js">
+    <link rel="stylesheet" crossorigin href="/lection-11-2-practice/assets/02-posts-2yjuR0q9.css">
+  </head>
+  <body>
+    <section class="page-section">
+      <div class="container">
+        <h2 class="page-section-title">Create a new post</h2>
+        <form class="post-form js-post-form">
+          <label class="post-form-field-label">
+            <span>Enter the post title</span>
+            <input
+              class="post-form-field"
+              name="post_title"
+              type="text"
+              required
+            />
+          </label>
+          <label class="post-form-field-label">
+            <span>Enter the post message</span>
+            <textarea
+              class="post-form-message"
+              name="post_body"
+              required
+            ></textarea>
+          </label>
+
+          <button class="post-form-sbmt-btn" type="submit">Create</button>
+        </form>
+      </div>
+    </section>
+    <section class="page-section">
+      <div class="container">
+        <h2 class="page-section-title">Posts</h2>
+        <ul class="posts-list js-posts-list"></ul>
+      </div>
+    </section>
+  </body>
+</html>
