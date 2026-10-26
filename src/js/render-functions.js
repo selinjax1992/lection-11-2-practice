@@ -10,12 +10,14 @@
 </li>
 */
 
+import spriteUrl from '../img/icons.svg?url';
+
 export const createPostCardTemplate = ({ id, post_title, post_body }) => {
   return `<li class="posts-list-item" data-id="${id}">
     <button class="post-delete-btn" type="button" data-delete data-post-id="${id}">
       <svg class="post-delete-icon" width="18" height="18">
-        <use href="/lection-11-2-practice/images/icons.svg#icon-trash"></use>
-    </svg>
+        <use href="${spriteUrl}#icon-trash"></use>
+      </svg>
     </button>
     <h3 class="posts-list-item-title">${post_title}</h3>
     <p class="posts-list-item-text">${post_body}</p>

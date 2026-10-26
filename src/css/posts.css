@@ -125,6 +125,7 @@ body {
   color: rgba(0, 0, 0, 0.6);
 }
 
+/* Позиционирование кнопки удаления */
 .post-delete-btn {
   position: absolute;
   top: 12px;
@@ -133,12 +134,20 @@ body {
   border: none;
   background-color: transparent;
   line-height: 0;
+  cursor: pointer;
+}
+
+/* Стилизация самой SVG иконки без использования !important */
+.post-delete-icon {
   fill: none;
   stroke: rgb(0, 0, 0);
+  stroke-width: 2.6667px;
+  display: block;
   transition: stroke 250ms linear;
 }
 
-.post-delete-btn:hover,
-.post-delete-btn:focus {
+/* Изменение цвета линий при наведении */
+.post-delete-btn:hover .post-delete-icon,
+.post-delete-btn:focus .post-delete-icon {
   stroke: rgba(0, 0, 0, 0.6);
 }
